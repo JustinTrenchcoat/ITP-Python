@@ -4,16 +4,17 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='itpwhoi',
-    version='1.0.0',
-    author='Jeff Grant',
-    author_email='jeffery.grant@gmail.com',
-    description='A package for querying Ice Tethered Profiler data',
+    name='itp2025',
+    version='1.1.0',
+    author='Jeff Grant, Jiaming Chang',
+    author_email='justinchang2021@outlook.com',
+    description='An extended package for querying Ice Tethered Profiler data with additional features',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://www2.whoi.edu/site/itp/',
+    url='https://github.com/JustinTrenchcoat/ITP-Python',
     project_urls={
-        'Bug Tracker': 'https://github.com/WHOI-ITP/ITP-Python/issues',
+        'Original Project': 'https://github.com/WHOI-ITP/ITP-Python',
+        'Bug Tracker': 'https://github.com/JustinTrenchcoat/ITP-Python/issues',
     },
     classifiers=[
         'Programming Language :: Python :: 3',
@@ -21,8 +22,8 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     package_dir={'': 'src'},
-    packages=['itp'],
-    python_requires='>=3.6',
+    packages=['itp2025'],
+    python_requires='>=3.8',
     install_requires=[
         'numpy',
         'gsw@git+https://github.com/TEOS-10/GSW-Python@main'

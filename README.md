@@ -288,3 +288,6 @@ colorbar.ax.set_ylabel('Temperature (C)')
   3. To plot data, install matplotlib `pip install matplotlib`
   4. To plot geographic data on a map, install basemap `pip install basemap`
   
+This project is a fork of [ITP-Python](https://github.com/WHOI-ITP/ITP-Python) by Jeff Grant.
+The original code is licensed under the GNU General Public License v3.0 (GPLv3).
+This fork includes additional features and modifications by Jiaming Chang.
