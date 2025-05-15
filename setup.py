@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='itp2025',
+    name='itp',
     version='1.1.0',
     author='Jeff Grant, Jiaming Chang',
     author_email='justinchang2021@outlook.com',
@@ -22,7 +22,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     package_dir={'': 'src'},
-    packages=['itp2025'],
+    packages=['itp'],
     python_requires='>=3.8',
     install_requires=[
         'numpy',
