@@ -283,7 +283,7 @@ colorbar.ax.set_ylabel('Temperature (C)')
 
 ## Installation
   1. Install ITP-Python using pip:
- `pip install git+https://github.com/WHOI-ITP/ITP-Python`
+ `pip install git+https://github.com/JustinTrenchcoat/ITP-Python`
   2. Download and unzip the ITP **final** database https://www.dropbox.com/sh/5u68j8h5eiamk1x/AABZTJd3Hx2y-GAsoBKyZo01a?dl=0
   3. To plot data, install matplotlib `pip install matplotlib`
   4. To plot geographic data on a map, install basemap `pip install basemap`

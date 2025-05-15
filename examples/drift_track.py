@@ -3,7 +3,7 @@ from itp.itp_query import ItpQuery
 import matplotlib.pyplot as plt
 
 
-path = 'J:/ITP Data/itp_final_2021_11_09.db'
+path = r'D:\EOAS\ITP_package_try\itp_final_2025_01_23\itp_final_2025_01_23.db'
 query = ItpQuery(path, system=[1])
 results = query.fetch()
 
