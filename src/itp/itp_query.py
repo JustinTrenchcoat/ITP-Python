@@ -98,7 +98,7 @@ class ItpQuery:
             query += ' ORDER BY pressure'
             results = cursor.execute(query, sql_args)
 
-            values = np.array(results.fetchall(), dtype=np.float)
+            values = np.array(results.fetchall(), dtype=float)
             if values.size == 0:
                 # the pressure filter may eliminate all the samples
                 # in that case, remove the profile
@@ -117,7 +117,7 @@ class ItpQuery:
             sql += 'WHERE ctd.profile_id == ?'
             sql += 'ORDER BY pressure'
             results = cursor.execute(sql, [var, profile._id])
-            values = np.array(results.fetchall(), dtype=np.float)
+            values = np.array(results.fetchall(), dtype=float)
             setattr(profile, var, values[:, 0])
 
     def _remove_empty_profiles(self):
