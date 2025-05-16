@@ -26,6 +26,6 @@ setuptools.setup(
     python_requires='>=3.8',
     install_requires=[
         'numpy',
-        'gsw@git+https://github.com/TEOS-10/GSW-Python@main'
+        'gsw'
     ]
 )
